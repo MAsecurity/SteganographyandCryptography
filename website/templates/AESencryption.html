@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block title %}AES encryption{% endblock %}
+
+
+{% block content %}<h1 align="center"> Encrypt your Message using AES </h1>
+<form method='POST'>
+    <textarea name="text" id="text" class="form-control"></textarea>
+    <br />
+    <div align="center">
+    <button type="submit" class="btn btn-lg btn-primary">Encrypt</button>
+    </div>
+</form>
+{% endblock %}
